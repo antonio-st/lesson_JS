@@ -1,0 +1,49 @@
+//var buttonPlus = document.getElementById('buttonPlus');
+//var buttonMinus = document.getElementById('buttonMinus');
+//var buttonMultiply = document.getElementById('buttonMultiply');
+//var buttonDevide = document.getElementById('buttonDevide');
+//var operationButton = [buttonPlus, buttonMinus, buttonMultiply, buttonDevide];
+
+var operationButton = document.getElementsByClassName('operations-button');
+var operationButton = document.getElementsByClassName('numbers-button');
+
+var input1 = document.getElementById('number1');
+var input2 = document.getElementById('number2');
+var countResult = document.getElementById('result');
+
+
+for (var i = 0; i < operationButton.length; i++) {
+    operationButton[i].addEventListener('click', operationButtonClick);
+}
+
+function operationButtonClick(eventObject) {
+    var clickedElement = eventObject.currentTarget;
+    var operation = clickedElement.innerHTML;
+    makeOperation(operation);
+}
+
+function makeOperation(operationCode) {
+var number1 = Number(input1.value);
+var number2 = Number(input2.value);
+    if (operationCode === '+') {
+        var result = number1 + number2;
+    } else if (operationCode === '-') {
+        var result = number1 - number2;
+    }
+    else if (operationCode === '*') {
+        var result = number1 * number2;
+    }
+    else if (operationCode === '/') {
+        var result = number1 / number2;
+    }
+    else {
+        countResult.value = 'operation is unknown';
+    }
+    countResult.value = result;
+}
+
+
+function operationNumberClick(){
+    
+}
+

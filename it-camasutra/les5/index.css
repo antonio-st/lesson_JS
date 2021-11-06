@@ -1,0 +1,36 @@
+input
+{
+    padding: 10px;
+    font-size: 15px;
+    font-style: initial;
+
+}
+img
+{
+    width: 50px
+}
+.important-item {
+    color: blue;
+    font-size: 20px;
+    border: green 1px solid;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.green {
+    color: green;
+    font-size: 20px;
+    border: green 1px solid;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.blue {
+    color: blue;
+    font-size: 20px;
+    border: blue 1px solid;
+    margin-left: 10px;
+    padding: 5px;
+}
+.important-size {
+     font-size: 40px;

@@ -1,0 +1,21 @@
+.itk-slider{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.itk-slider .slide-img {
+    max-width: 80%;
+    max-width: 400px;
+}
+
+.itk-slider2{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.itk-slider2 .slide-img {
+    max-width: 80%;
+    max-width: 400px;
+}

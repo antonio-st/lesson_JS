@@ -1,0 +1,40 @@
+<input value='Antonio' class='first-name default-input' id='first-name'>
+<input value='Bogdanov' class='last-name default-input' id='last-name'>
+<input value='Stavropol city' class='address default-input' id='address'>
+
+<select id='cities'>
+    <option> Minsk</option>
+    <option selected='selected'> Moscow</option>
+    <option> Kiev</option>
+</select>
+
+<textarea id='hobbies'> JS, CSS, HTML
+</textarea>
+
+<div id='avatar-wrapper'><img src="https://cdn.proghub.ru/t/js-basic.png"></div>
+
+
+<script>
+    var firstNameEl;
+    // var firstNameId;
+    var lastNameEl;
+    var addressEl;
+    var citiesEl;
+    var hobbiesEl;
+    var avatarEl;
+
+    //присваиваем переменной строку idшку , которую нужно найти в html
+    //находим элемент по id и результат (найденный элемент) присваиваем переменной firstNameEl
+    firstNameEl = document.getElementById('first-name');
+    lastNameEl = document.getElementById('last-name');
+    addressEl = document.getElementById('address');
+    citiesEl = document.getElementById('cities');
+    hobbiesEl = document.getElementById('hobbies');
+    avatarEl = document.getElementById('avatar-wrapper');
+    //выводим аттрибут value у найденного элемента
+   // window.alert(firstNameEl.value + ' ' + lastNameEl.value + ' ' + addressEl.value);
+   // window.alert(citiesEl.value);
+   window.alert(hobbiesEl.value);
+   window.alert(avatarEl.value);
+
+</script>

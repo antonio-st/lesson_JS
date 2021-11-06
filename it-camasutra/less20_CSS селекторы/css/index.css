@@ -1,0 +1,54 @@
+
+
+.news-content .section-news li{
+    padding: 10px;
+}
+
+.news-content .section-news li:hover a{
+    color: white;
+}
+
+
+
+.news-content .section-realty realty-footer{
+    color: cadetblue;
+}
+
+.news-content .section-news h2{
+    color: white;
+    padding: 10px;
+}
+
+.news-content .section-hot li:hover{
+    background-color: darkolivegreen; 
+
+}
+.news-content .section-hot h2 {
+    background-color: darkolivegreen;
+}
+.news-content .section-hot h2:hover{
+    background-color: darkolivegreen;
+}
+.news-content .section-news .footer{
+    background-color: white;
+}
+
+.section-hot .footer{
+    color: darkolivegreen;
+}
+
+.news-content .section-realty h2{
+    background-color: cadetblue
+}
+
+.news-content .section-realty h2:hover{
+    background-color: cadetblue
+}
+
+.news-content .section-realty li:hover{
+    background-color: cadetblue;  
+}
+.section-realty .footer{
+    color: cadetblue;
+}
+
